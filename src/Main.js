@@ -15,7 +15,6 @@ function Main() {
   const [selectedProduct, setSelectedProduct] = useState('');
   const [search, setSearch] = useState('');
 
-  // Filtered Products for Search
   const filteredProducts = products.filter((p) =>
     p.name.toLowerCase().includes(search.toLowerCase())
   );
@@ -50,7 +49,6 @@ function Main() {
           </header>
         </div>
 
-        {/* Main section - Products */}
         <div className="main">
           <section className="products">
             <div className="details-row">
@@ -83,7 +81,6 @@ function Main() {
           </section>
         </div>
 
-        {/* Counter section */}
         <section className="right-top">
           <h3>Counter with products</h3>
           <div className="counter-controls">
@@ -110,7 +107,6 @@ function Main() {
           </div>
         </section>
 
-        {/* Product details section */}
         <section className="right-bottom">
           <div className="details-row">
             <h3>Product Details</h3>
