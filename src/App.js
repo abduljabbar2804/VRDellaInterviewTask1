@@ -17,7 +17,6 @@ function App() {
 
   return (
     <div className="app">
-      {/* Sidebar */}
       <aside className="sidebar">
         <h2 className="logo">Logo</h2>
         <nav>
@@ -31,7 +30,6 @@ function App() {
         <button className="logout">Logout</button>
       </aside>
 
-      {/* Main content --------------------------------------------------TOBAR*/}
       <main className="topbar"> 
         <header>
           <h1>Dashboard</h1>
@@ -39,7 +37,6 @@ function App() {
         </header>
 
         <div className="main">
-          {/* Products List ------------------------------------------------main*/}
           <section className="products">
             <h3>List of Products</h3>
             <input type="text" placeholder="Search Product..." />
@@ -58,7 +55,6 @@ function App() {
             </ul>
           </section>
 
-          {/* Counter----------------------------------------------------------Counter */}
           <section className="right-top">
             <h3>Counter with products</h3>
             <div className="counter-controls">
@@ -73,7 +69,6 @@ function App() {
             </div>
           </section>
 
-          {/* Product Details-----------------------------------------------------Product Details */}
           <section className="right-bottom">
             <h3>Product Details</h3>
             
